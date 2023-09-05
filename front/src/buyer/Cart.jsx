@@ -62,7 +62,7 @@ const Cart = () => {
             </div>
             <div style={{ height: "25vh", width: "30%", marginLeft: "5%", border: "1px solid black", marginTop: "10%" }}>
                 <h1 style={{ textAlign: "center" }}>Total Price : {totalPrice}</h1>
-                <button onClick={() => checkOut()}>Checkout</button>
+                <button>Checkout</button>
             </div>
         </div>
 

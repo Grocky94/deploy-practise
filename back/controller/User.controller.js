@@ -1,4 +1,4 @@
-import UserModel from "../../backend/model/User.model.js";
+import UserModel from "../../back/model/User.model.js";
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 import { sendTwilioMessage } from "../helpers/Sms.js";

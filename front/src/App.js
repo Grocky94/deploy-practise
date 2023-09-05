@@ -1,9 +1,9 @@
 // import './App.css';
 
 import { Route, Routes } from "react-router-dom";
-import Home from "../../frontend/src/component/Home";
-import Register from "../../frontend/src/component/register/Register";
-import Login from "../../frontend/src/component/login/Login";
+import Home from "./component/Home";
+import Register from "./component/register/Register";
+import Login from "./component/login/Login";
 import Navbar from "./common/Navbar";
 import Addproduct from "./seller/Addproduct";
 import YourProducts from "./seller/YourProducts";

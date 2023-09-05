@@ -4,10 +4,10 @@ import mongoose from "mongoose"
 import cors from "cors";
 import morgan from "morgan";
 // import { Login, Register, getCurrentUser, getNumber, sendOtp, verifyOtp } from "../../test-9/backend/controller/User.controller.js";
-import { checkAdmin, checkSeller, checkUser } from "../../test-9/backend/middleware/All.middleware.js";
-import { addComment, addProduct, allProduct, deleteYourProduct, getMyProducts, rateProduct, updateYourProducts } from "../../test-9/backend/controller/Product.controller.js";
+import { checkAdmin, checkSeller, checkUser } from "./middleware/All.middleware.js";
+import { addComment, addProduct, allProduct, deleteYourProduct, getMyProducts, rateProduct, updateYourProducts } from "./controller/Product.controller.js";
 // import { addCart, addWishlist, deleteProduct, getCartProducts, getWishlistProducts } from "../../test-9/backend/controller/buyer.controller.js";
-import { blockUser, findAllProducts, findAllSellers, findAllVerifyProduct, findAllbuyers, unBlockUser, verifyProduct } from "../../test-9/backend/controller/Admin.controllers.js"
+import { blockUser, findAllProducts, findAllSellers, findAllVerifyProduct, findAllbuyers, unBlockUser, verifyProduct } from "./controller/Admin.controllers.js"
 // import jwt from "jsonwebtoken";
 import routerIndex from "./Routers/index.js"
 

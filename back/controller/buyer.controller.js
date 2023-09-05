@@ -1,6 +1,6 @@
-import UserModel from "../../backend/model/User.model.js";
+import UserModel from "../../back/model/User.model.js";
 import jwt from 'jsonwebtoken';
-import ProductModel from "../../backend/model/Product.model.js";
+import ProductModel from "../../back/model/Product.model.js";
 
 export const addCart = async (req, res) => {
     try {

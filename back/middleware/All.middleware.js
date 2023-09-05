@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import UserModel from "../../backend/model/User.model.js";
+import UserModel from "../../back/model/User.model.js";
 
 // only for seller
 export const checkSeller = async (req, res, next) => {

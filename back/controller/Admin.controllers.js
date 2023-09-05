@@ -1,5 +1,5 @@
-import ProductModel from "../../backend/model/Product.model.js";
-import UserModel from "../../backend/model/User.model.js"
+import ProductModel from "../../back/model/Product.model.js";
+import UserModel from "../../back/model/User.model.js"
 
 export const blockUser = async (req, res) => {
     try {

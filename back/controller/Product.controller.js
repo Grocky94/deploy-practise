@@ -1,4 +1,4 @@
-import ProductModel from "../../backend/model/Product.model.js";
+import ProductModel from "../../back/model/Product.model.js";
 import jwt from "jsonwebtoken"
 import UserModel from "../model/User.model.js";
 

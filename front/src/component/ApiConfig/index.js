@@ -3,7 +3,7 @@ import axios from "axios"
 // const token = JSON.parse(localStorage.getItem("token"));
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api/v1',
+    baseURL: 'https://awdiz.onrender.com/api/v1',
     // headers: { "Authorization": `Bearer ${token}` }
 })
 
